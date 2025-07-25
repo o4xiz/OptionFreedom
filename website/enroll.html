@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enroll – Retire Early with Options</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-pb3bdeaz0bff9Lb/rjFJUTRy2HK9pTQVfm2MQsdL0jZXoosrV9VCJ8jpXPDf7AoRdyUIqHJ0C8CIBnegXJf5A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">Option<span>Freedom</span></a>
+        <nav class="nav" id="nav-menu">
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#curriculum">Curriculum</a></li>
+            <li><a href="index.html#benefits">Why Options?</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="enroll.html" class="cta-btn">Enroll</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero enroll-hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Join Our Program</h1>
+        <p class="subheading">
+          You're one step closer to building a reliable income stream and
+          achieving financial independence. Fill out the form below and we'll
+          reach out with next steps.
+        </p>
+      </div>
+    </section>
+
+    <section class="section form-section">
+      <div class="container">
+        <h2 class="section-title">Sign Up Now</h2>
+        <form class="signup-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your goals"></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> OptionFreedom. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#curriculum">Curriculum</a></li>
+          <li><a href="index.html#benefits">Benefits</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
